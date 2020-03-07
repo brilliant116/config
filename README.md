@@ -1,1 +1,1 @@
-the config file of some softwares
+the config files of some softwares
