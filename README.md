@@ -1,11 +1,15 @@
 
-#### alacritty
+- alacritty
 
 用户配置文件为`~/.config/alacritty/alacritty.yml`
 
-#### kitty
+- kitty
 
 用户配置文件为`~/.config/kitty/kitty.conf`
+
+- xfce
+
+`~/.local/share/xfce4/terminal/colorschemes`
 
 #### VS Code
 
