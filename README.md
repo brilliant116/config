@@ -1,13 +1,13 @@
 
-- alacritty
+alacritty
 
 用户配置文件为`~/.config/alacritty/alacritty.yml`
 
-- kitty
+kitty
 
 用户配置文件为`~/.config/kitty/kitty.conf`
 
-- xfce
+xfce
 
 `~/.local/share/xfce4/terminal/colorschemes`
 
@@ -15,7 +15,7 @@
 
 用户配置文件为`~/.config/Code/User/settings.json`
 
-#### nano的配置
+#### nano
 
 ```
 cp /etc/nanorc ~/.config/nano/nanorc
