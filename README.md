@@ -17,6 +17,8 @@ xfce
 
 #### nano
 
+nano system-wide settings `/etc/nanorc`, user-specific settings `~/.config/nano/nanorc` or `~/.nanorc`
+
 ```
 cp /etc/nanorc ~/.config/nano/nanorc
 ```
@@ -30,6 +32,8 @@ sudo pacman -S nano-syntax-highlighting
 ```
 ~/.config/nano/nanorc
 ---------------------
+set tabsize 4
+
 include "/usr/share/nano/*.nanorc"
 include "/usr/share/nano-syntax-highlighting/*.nanorc"
 ```
