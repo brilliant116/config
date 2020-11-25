@@ -1,0 +1,282 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+html
+{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-family: "Sorce Sans 3","Source Han Sans SC","Source Han Sans","HanHei SC",-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  quotes: "“" "”";
+}
+
+html:lang(de)
+{
+  quotes: "„" "“";
+}
+
+html:lang(es),html:lang(no)
+{
+  quotes: "«" "»";
+}
+
+html:lang(fr)
+{
+  quotes: "« " " »";
+}
+
+html:lang(en) body {
+    font-family: "Source Sans 3", "Georgia", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+}
+
+html:lang(en) code,
+html:lang(en) kbd,
+html:lang(en) pre,
+html:lang(en) samp {
+    font-family: "Consolas", "Source Han Sans SC", "Noto Sans CJK SC", "HanHei SC", -apple-system, BlinkMacSystemFont, system-ui, monospace;
+}
+
+html:lang(zh-CN),html:lang(zh-SG)
+{
+  font-family: "Source Han Sans SC","Source Han Sans","HanHei SC",-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+}
+
+html:lang(zh-TW),html:lang(zh-HK),html:lang(zh-MO)
+{
+  font-family: "Source Han Sans TC","Source Han Sans","HanHei TC",-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  quotes: "「" "」";
+}
+
+body,input,textarea,keygen,select,button
+{
+  font-family: inherit;
+}
+
+body:disabled,input:disabled,textarea:disabled,keygen:disabled,select:disabled,button:disabled
+{
+  cursor: not-allowed;
+}
+
+@font-face
+{
+  font-family:"Arial";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"Georgia";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"Helvetica";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"Helvetica Neue";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"Segoe UI";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"Tahoma";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"Times";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"Time New Roman";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"Trebuchet";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"Trebuchet MS";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"Verdana";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"Consolas";src:local("Source Code Pro");
+}
+
+@font-face
+{
+  font-family:"Courier";src:local("Source Code Pro");
+}
+
+@font-face
+{
+  font-family:"Courier New";src:local("Source Code Pro");
+}
+
+@font-face
+{
+  font-family:"SimSun";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"SimSun-ExtB";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"宋体";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"NSimSun";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"新宋体";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"SimHei";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"黑体";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"Microsoft YaHei";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"微软雅黑";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"STHeiti SC";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"PingFang SC";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"苹方-简";src:local("Source Han Sans SC");
+}
+
+@font-face
+{
+  font-family:"MingLiU";src:local("Source Han Sans TC");
+}
+
+@font-face
+{
+  font-family:"MingLiU-ExtB";src:local("Source Han Sans TC");
+}
+
+@font-face
+{
+  font-family:"MingLiU_HKSCS";src:local("Source Han Sans TC");
+}
+
+@font-face
+{
+  font-family:"MingLiU_HKSCS-ExtB";src:local("Source Han Sans TC");
+}
+
+@font-face
+{
+  font-family:"PMingLiU";src:local("Source Han Sans TC");
+}
+
+@font-face
+{
+  font-family:"PMingLiU-ExtB";src:local("Source Han Sans TC");
+}
+
+@font-face
+{
+  font-family:"Microsoft JhengHei";src:local("Source Han Sans TC");
+}
+
+@font-face
+{
+  font-family:"微軟正黑體";src:local("Source Han Sans TC");
+}
+
+@font-face
+{
+  font-family:"STHeiti TC";src:local("Source Han Sans TC");
+}
+
+@font-face
+{
+  font-family:"PingFang TC";src:local("Source Han Sans TC");
+}
+
+@font-face
+{
+  font-family:"蘋方-繁";src:local("Source Han Sans TC");
+}
+
+@font-face
+{
+  font-family:"PingFang HK";src:local("Source Han Sans TC");
+}
+
+@font-face
+{
+  font-family:"蘋方-港";src:local("Source Han Sans TC");
+}
+
+@font-face
+{
+  font-family:"MS Gothic";src:local("Source Han Sans");
+}
+
+@font-face
+{
+  font-family:"MS PGothic";src:local("Source Han Sans");
+}
+
+@font-face
+{
+  font-family:"MS UI Gothic";src:local("Source Han Sans");
+}
+
+@font-face
+{
+  font-family:"Yu Gothic";src:local("Source Han Sans");
+}
+
+@font-face
+{
+  font-family:"Yu Gothic UI";src:local("Source Han Sans");
+}
+
+@font-face
+{
+  font-family:"Malgun Gothic";src:local("Source Han Sans K");
+}
