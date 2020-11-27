@@ -1,4 +1,12 @@
 
+font
+
+```
+sudo pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts
+```
+
+put `fonts.conf` file into `~/.config/fontconfig` folder.
+
 alacritty
 
 用户配置文件为`~/.config/alacritty/alacritty.yml`
