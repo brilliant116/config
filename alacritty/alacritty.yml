@@ -6,16 +6,16 @@ window:
 
 font:
   normal:
-    family: Input
+    family: Code New Roman
     style:  Regular
   bold:
-    family: Input
+    family: Code New Roman
     style:  auto
   italic:
-    family: Input
+    family: Code New Roman
     style:  auto
 
-  size: 13
+  size: 17
 
   offset:
     x: 0
@@ -26,23 +26,22 @@ font:
     y: 0
 
 cursor:
-  # Cursor style
-  #
-  # Values for 'style':
-  #   - Block
-  #   - Underline
-  #   - Beam
+  # Cursor style: Block, Underline, Beam
   style: Block
 
   # If this is `true`, the cursor will be rendered as a hollow box when the
   # window is not focused.
   unfocused_hollow: true
 
+  # Thickness of the cursor relative to the cell width as floating point number
+  # from `0.0` to `1.0`.
+  thickness: 0.2
+
 background_opacity: 1.0
 
 #custom_cursor_colors: true
 
-# Colors (One Light)
+# Colors
 colors:
   # Default colors
   primary:
@@ -55,10 +54,10 @@ colors:
     # black text on the background.
     black:   '#282c34'
     red:     '#ff4053'
-    green:   '#10a778'
-    yellow:  '#d19a66'
-    blue:    '#3399ff'
-    magenta: '#b147d1'
+    green:   '#009933'
+    yellow:  '#cc8800'
+    blue:    '#1a8cff'
+    magenta: '#b31aff'
     cyan:    '#00cccc'
     white:   '#abb2bf'
 
@@ -69,7 +68,7 @@ colors:
     green:   '#10a778'
     yellow:  '#d19a66'
     blue:    '#3399ff'
-    magenta: '#b147d1'
+    magenta: '#a833cc'
     cyan:    '#00cccc'
     white:   '#ffffff'
 
