@@ -6,13 +6,13 @@ window:
 
 font:
   normal:
-    family: Code New Roman
+    family: Fira Code
     style:  Regular
   bold:
-    family: Code New Roman
+    family: Fira Code
     style:  auto
   italic:
-    family: Code New Roman
+    family: Fira Code
     style:  auto
 
   size: 17
@@ -39,9 +39,8 @@ cursor:
 
 background_opacity: 1.0
 
-#custom_cursor_colors: true
 
-# Colors
+# Colors (One Light)
 colors:
   # Default colors
   primary:
